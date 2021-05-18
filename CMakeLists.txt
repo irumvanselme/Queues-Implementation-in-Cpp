@@ -14,3 +14,5 @@ add_executable(Deque_LL deque/linkedList.cpp)
 add_executable(Priority_Array priority/array.cpp)
 add_executable(Priority_LL priority/linkedList.cpp)
 
+add_executable(Project project/telephoneLine.cpp project/Queue.h)
+

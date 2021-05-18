@@ -20,7 +20,7 @@ public:
     void enQueue(int data) {
         Node *temp = new Node;
         temp->data = data;
-        if (front == nullptr && rear == nullptr) front = temp;
+        if (front == nullptr && rear == nullptr) front = rear = temp;
         else rear->next = temp;
 
         rear = temp;
